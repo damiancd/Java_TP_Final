@@ -72,6 +72,19 @@ Gestionan todo el inventario de la tienda.
 
 ---
 
+### 🏷️ Categorías
+Gestionan las agrupaciones y familias de productos.
+
+| Método HTTP | Endpoint | Descripción | Body (JSON) Requerido |
+| :--- | :--- | :--- | :--- |
+| **GET** | `/api/categorias` | Lista todas las categorías. | *Ninguno* |
+| **GET** | `/api/categorias/{id}` | Obtiene una categoría específica por su ID. | *Ninguno* |
+| **POST** | `/api/categorias` | Crea una nueva categoría. | Sí (`{"nombre": "Nueva Categoría"}`) |
+| **PUT** | `/api/categorias/{id}` | Actualiza el nombre de una categoría existente. | Sí (`{"nombre": "Nombre Actualizado"}`) |
+| **DELETE** | `/api/categorias/{id}` | Elimina una categoría del sistema. | *Ninguno* |
+
+---
+
 ### 🛒 Pedidos
 Gestionan las compras y el historial de transacciones.
 
