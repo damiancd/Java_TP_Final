@@ -133,8 +133,8 @@ src/
       │                   │    └── ProductoController.java
       │                   ├── exception/
       │                   │    ├── GlobalExceptionHandler.java
-      │                   │    ├── ResourceNotFoundException.java
-      │                   │    └── StockException.java
+      │                   │    ├── ProductoNoEncontradoException.java
+      │                   │    └── StockInsuficienteException.java
       │                   ├── model/
       │                   │    ├── Categoria.java
       │                   │    ├── DetallePedido.java
