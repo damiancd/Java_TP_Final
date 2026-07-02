@@ -142,9 +142,11 @@ src/
       │                   ├── config/
       │                   │    └── CorsConfig.java
       │                   ├── controller/
+      │                   │    ├── CategoriaController.java      
       │                   │    ├── PedidoController.java
       │                   │    └── ProductoController.java
       │                   ├── exception/
+      │                   │    ├── CategoriaNoEncontradaException.java
       │                   │    ├── GlobalExceptionHandler.java
       │                   │    ├── ProductoNoEncontradoException.java
       │                   │    └── StockInsuficienteException.java
@@ -158,6 +160,7 @@ src/
       │                   │    ├── PedidoRepository.java
       │                   │    └── ProductoRepository.java
       │                   ├── service/
+      │                   │    ├── CategoriaService.java
       │                   │    ├── PedidoService.java
       │                   │    └── ProductoService.java
       │                   └── EcommerceApplication.java
